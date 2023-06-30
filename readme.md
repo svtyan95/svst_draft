@@ -1,4 +1,4 @@
-<!-- 1. По маленьку, все вийде!
+1. По маленьку, все вийде!
 2. без сумнівів, все вийде!
 
 цікаве інфо:
@@ -11,8 +11,8 @@ controls
 >
 
 <source
-        src="./images/video.mp4"
+        src="https://youtu.be/lKAVnNi9ZCM"
         type="video/mp4"
         >
 
-</video> -->
+</video>
