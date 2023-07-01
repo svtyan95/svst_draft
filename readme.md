@@ -3,6 +3,7 @@
 
 цікаве інфо:
 як розмістити відео:
+
 <video
 poster="./images/deer.jpg"
 width="1000"
