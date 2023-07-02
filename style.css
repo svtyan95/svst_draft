@@ -78,3 +78,9 @@ select {
           scroll-behavior: auto !important;
      }
 }
+
+
+
+p {
+     background-color: rgba(5%, 40%, 15%, 10%);
+}
