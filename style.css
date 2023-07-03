@@ -78,3 +78,21 @@ select {
           scroll-behavior: auto !important;
      }
 }
+
+
+
+
+
+/* all roots with colors and details */
+
+:root {
+--main-blue-color: #2196F3;
+--black-color-000000: #000000;
+--text-black-212121: #212121; 
+--hero-text-color: #FFFFFF;
+--hero-bg-color: #2F303A;
+--contat-grey-text-color: #757575; 
+--header-lower-horizontal-line: #ECECEC;
+--our-team-bg-color: #F5F4FA;
+--footer-contacts-color-text: rgba(255, 255, 255, 0.60);
+}
