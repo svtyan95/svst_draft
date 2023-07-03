@@ -102,5 +102,6 @@ select {
 /* Header section */
 
 .nav-list .link.current {
+     color: red;
 
 }
