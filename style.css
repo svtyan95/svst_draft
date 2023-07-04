@@ -122,9 +122,8 @@ select {
 .page-header .header-logo {
      color: var(--main-blue-color);
      font-size: 26px;
-     font-family: Raleway;
+     font-family: 'Raleway';
      font-weight: 700;
-     line-height: normal;
      letter-spacing: 0.78px;
-
+     line-height: calc(24/26);
 }
