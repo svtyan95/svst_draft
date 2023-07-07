@@ -109,11 +109,22 @@ select {
 }
 
 
+
+/* utilize setttings */
+.container {
+     width: 1200px;
+     margin: 0 auto;
+     padding: 0 15px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
 /* WEB STDUIO MAIN PAGE */
 /* Header section */
 
 .nav-list .link.current {
-     color: red;
+     color: var(--main-blue-color);
 }
 
 
@@ -135,3 +146,36 @@ select {
      color: var(--black-color-000000);
      border: 2px red;
 }
+
+.header-logo:active,
+.header-logo:focus {
+          color: var(--main-blue-color);
+
+}
+
+.nav-link {
+     color: var(--text-black-212121);
+     font-size: 14px;
+     letter-spacing: 0.28px;
+}
+     
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+     color: var(--main-blue-color);
+}
+
+.contacts-link {
+     color: #757575;
+     font-size: 14px;
+     font-style: normal;
+     letter-spacing: 0.28px;
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.contacts-link:active {
+     color: var(--main-blue-color);
+}
+
