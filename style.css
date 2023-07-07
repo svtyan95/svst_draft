@@ -103,6 +103,7 @@ select {
 --our-team-bg-color: #F5F4FA;
 --footer-contacts-color-text: rgba(255, 255, 255, 0.60);
 
+
 /* FONTS: */
 --Roboto-font: 
 
@@ -179,3 +180,20 @@ select {
      color: var(--main-blue-color);
 }
 
+
+
+/* ---hero-title--- */
+
+.hero {
+     background-color:var(--hero-bg-color)
+}
+.hero-title {
+     color: #FFF;
+     text-align: center;
+     font-size: 44px;
+     font-family: Roboto;
+     font-weight: 900;
+     line-height: 60px;
+     letter-spacing: 2.64px;
+     text-transform: uppercase;
+}
