@@ -133,4 +133,5 @@ select {
 }
 .header-logo .studio {
      color: var(--black-color-000000);
+     border: 2px red;
 }
