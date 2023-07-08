@@ -1,8 +1,12 @@
 /* Указываем box sizing */
+html {
+     box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
-     box-sizing: border-box;
+     box-sizing: inherit;
 }
 
 
@@ -187,6 +191,7 @@ select {
 .hero {
      background-color:var(--hero-bg-color)
 }
+
 .hero-title {
      color: #FFF;
      text-align: center;
