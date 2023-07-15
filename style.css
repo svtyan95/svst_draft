@@ -164,7 +164,7 @@ select {
      margin-left: auto;
 }
 
-.header-nav .nav-list .nav-items:nth-child(3) {
+.header-nav .nav-list .nav-items:not-last- {
      margin-right: 50px;
 }
 
