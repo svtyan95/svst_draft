@@ -143,6 +143,7 @@ select {
      letter-spacing: 0.78px;
      line-height: calc(24/26);
      margin-left: 215px;
+     margin-right: 93px;
 }
 
 .page-header .header-nav .nav-list{
@@ -158,6 +159,14 @@ select {
      align-items: center;
 }
 
+
+.header-contacts {
+     margin-left: auto;
+}
+
+.header-nav .nav-list .nav-items:nth-child(3) {
+     margin-right: 50px;
+}
 
 /* WEBSTUDIO LOGO  */
 .header-logo .web {
