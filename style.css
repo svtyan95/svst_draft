@@ -132,6 +132,9 @@ select {
      color: var(--main-blue-color);
 }
 
+.nav-list li:not(:last-child) {
+   margin-right: 50px;
+}
 
 
 /* webstudio header, and portfolio header */
@@ -261,7 +264,7 @@ justify-content: center;}
 .card-set {
      display: flex;
      flex-wrap: wrap;
-     gap: 25px;
+     gap: 30px;
      justify-content: center;
 }
 
