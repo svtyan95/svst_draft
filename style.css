@@ -270,6 +270,7 @@ justify-content: center;}
 
 
 .item-card {
+     width: 370px;
      background-color: #FFFFFF;
      flex-basis: calc((100% - 20px) / 4);
 
@@ -281,4 +282,7 @@ justify-content: center;}
 
 
 
+.item-card img {
+          width: 370px;
 
+}
