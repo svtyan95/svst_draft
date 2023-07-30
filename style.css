@@ -186,6 +186,13 @@ select {
 
 }
 
+
+.nav-list .nav-items {
+     padding-top: 28px;
+     padding-bottom: 28px;
+}
+
+
 .nav-link {
      color: var(--text-black-212121);
      font-size: 14px;
@@ -217,7 +224,9 @@ select {
 /* ---hero-title--- */
 
 .hero {
-     background-color:var(--hero-bg-color)
+     background-color:var(--hero-bg-color);
+     padding-top: 188px;
+     padding-bottom: 198px;
 }
 
 .hero-title {
@@ -229,6 +238,28 @@ select {
      line-height: 60px;
      letter-spacing: 2.64px;
      text-transform: uppercase;
+     max-width: 696px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.hero .hero-button {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     font-family: inherit;
+     background-color: var(--main-blue-color);
+     border-radius: 4px;
+     color: var(--hero-text-color);
+     font-weight: 700;
+     font-size: 16px;
+     line-height: calc(30 / 16);
+     letter-spacing: 0.06em;
+     cursor: pointer;
+     min-width: 216px;
+     border-color: transparent;
+     padding: 10px 32px 10px 32px;
+     margin-top: 40px;
 }
 
 
