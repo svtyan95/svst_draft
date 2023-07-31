@@ -270,10 +270,22 @@ select {
 
 
 
+
+/* section advantages  */
+
+.advantages {
+     padding-top: 94px;
+}
+
+
 /* section what we do */
 .what-we-do {
      display: flex;
 }
+
+
+
+
 
 
 /* section our team  */
