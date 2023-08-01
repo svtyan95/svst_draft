@@ -145,7 +145,6 @@ select {
      font-weight: 700;
      letter-spacing: 0.78px;
      line-height: calc(24/26);
-     margin-left: 215px;
      margin-right: 93px;
 }
 
@@ -157,6 +156,12 @@ select {
      display: flex;
 }
 
+.contacts-list .contact-items:nth-of-type(1) {
+  margin-right: 50px;
+  margin-left: 344px;
+}
+
+
 .page-header .main-nav {
      display: flex;
      align-items: center;
@@ -167,7 +172,7 @@ select {
      margin-left: auto;
 }
 
-.header-nav .nav-list .nav-items:not-last- {
+.header-nav .nav-list .nav-items:not-last-child {
      margin-right: 50px;
 }
 
@@ -211,6 +216,7 @@ select {
      font-size: 14px;
      font-style: normal;
      letter-spacing: 0.28px;
+
 }
 
 .contacts-link:hover,
@@ -263,15 +269,17 @@ select {
 }
 
 
-.works-list {
-     display: flex;
-
-}
-
-
 
 
 /* section advantages  */
+
+.works-list {
+     display: flex;
+     flex-wrap: nowrap;
+     gap: 30px;
+}
+
+
 
 .advantages {
      padding-top: 94px;
@@ -281,9 +289,26 @@ select {
 /* section what we do */
 .what-we-do {
      display: flex;
+     gap: 30px
+     
 }
 
+.works-img {
+padding-top: 94px;
+padding-bottom: 94px;
 
+
+}
+
+.works-img .works-title {
+     color: var(--text-black-212121);
+     text-align: center;
+     font-size: 36px;
+     font-weight: 700;
+     letter-spacing: 1.08px;
+     margin-bottom: 50px ;
+
+}
 
 
 
