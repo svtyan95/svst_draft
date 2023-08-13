@@ -248,8 +248,10 @@ select {
      background-color:var(--hero-bg-color);
      padding-top: 188px;
      padding-bottom: 198px;
-          background-color: rgba(47, 48, 58, 0.40);
-     background: url(./img/hero/bg-office-meeting.jpg), lightgray 0px -147.517px / 100% 170.667% no-repeat; ;
+
+     background: linear-gradient( to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40) ),  url(./img/hero/bg-office-meeting.jpg), lightgray 0px -147.517px / 100% 170.667% no-repeat;;
+
+     /* background: url(./img/hero/bg-office-meeting.jpg), lightgray 0px -147.517px / 100% 170.667% no-repeat; ; */
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
