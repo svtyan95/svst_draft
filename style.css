@@ -310,6 +310,36 @@ select {
      padding-top: 94px;
 }
 
+.works-item::before {
+     margin-bottom: 30px;
+     display: inline-block;
+     content: "";
+     height: 120px;
+     width: 270px ;
+     background-color: var(--our-team-bg-color);
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.works-item:nth-child(1)::before {
+     background-image: url(./img/section-advantages/antenna.png);
+
+}
+
+.works-item:nth-child(2)::before {
+     background-image: url(./img/section-advantages/clock.png);
+
+}
+
+.works-item:nth-child(3)::before {
+     background-image: url(./img/section-advantages/diagram.png);
+
+}
+
+.works-item:nth-child(4)::before {
+     background-image: url(./img/section-advantages/astronaut.png);
+
+}
 
 /* section what we do */
 .what-we-do {
