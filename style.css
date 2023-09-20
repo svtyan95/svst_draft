@@ -229,7 +229,6 @@ select {
 .contacts-link {
      color: #757575;
      font-size: 14px;
-     font-style: normal;
      letter-spacing: 0.28px;
 
 }
@@ -370,9 +369,11 @@ padding-bottom: 94px;
 
 /* section our team  */
 
+
 .main-team {
      padding-bottom: 94px;
      padding-top: 94px;
+     background-color: var(--our-team-bg-color);
 }
 
 .team-list {
@@ -465,3 +466,86 @@ justify-content: center;}
           width: 370px;
 
 }
+
+
+/* customer section */
+
+.customers-main {
+     padding-top: 94px ;
+     padding-bottom: 94px;
+}
+
+
+.customers-title {
+color: var(--text-black-212121);
+     text-align: center;
+     font-size: 36px;
+     font-weight: 700;
+     letter-spacing: 1.08px;
+     margin-bottom: 50px;
+}
+
+.customers-list {
+     display: flex;
+     gap: 30px;
+}
+
+.customers-item {
+     width: 170px;
+     height: 92px;
+     border-radius: 4px;
+     border: 1px solid #AFB1B8;
+}
+
+
+
+
+/* footer section */
+
+.footer-main {
+     background-color: var(--hero-bg-color);
+     padding-top: 60px;
+     padding-bottom: 60px;
+}
+
+
+.footer-logo {
+     color: var(--main-blue-color);
+     font-family: Raleway;
+     font-size: 26px;
+     font-weight: 700;
+     letter-spacing: 0.78px;
+}
+
+.footer-main .studio-ftr{
+     color: var(--hero-text-color);
+}
+
+.footer-text {
+     font-size: 14px;
+     font-weight: 400;
+     line-height: calc(24 / 14);
+     letter-spacing: 0.42px;
+     font-style: normal;
+}
+.footer-item .footer-address {
+     color:var(--hero-text-color);
+
+}
+
+.footer-item .footer-contacts {
+     color: var(--footer-contacts-color-text);
+}
+
+.footer-contacts {
+
+}
+
+.footer-main address {
+     margin-top: 20px;
+}
+
+.footer-list .footer-item:not(:last-child) {
+     margin-bottom: 9px;
+}
+
