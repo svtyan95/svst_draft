@@ -435,10 +435,45 @@ padding-bottom: 94px;
 /* PAGE PORTFOLIO */
 /* SECTION WITH BUTTONS */
 
+.projects-main {
+padding-bottom: 94px;
 
-.button-gallery {
-display: flex;
-justify-content: center;}
+
+
+}
+.gallery-list {
+     display: flex;
+     justify-content: center;
+     padding-top: 94px;
+     padding-bottom: 50px;
+     gap: 8px;
+}
+
+.gallery-button {
+     padding: 6px 22px 6px 22px;
+     border-radius: 4px;
+     background: var(--our-team-bg-color);
+     border-color: transparent;
+     
+     cursor: pointer;
+ 
+
+     color: var(--text-black-212121);
+          text-align: center;
+          font-family: inherit;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: calc(26 / 16);
+          letter-spacing: 0.48px;
+}
+
+.gallery-button:hover {
+     border-radius: 4px;
+     background: var(--main-blue-color);
+     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+     color: var(--hero-text-color);
+}
 
 
 .card-set {
@@ -453,10 +488,6 @@ justify-content: center;}
      width: 370px;
      background-color: #FFFFFF;
      flex-basis: calc((100% - 20px) / 4);
-
-     background-color: orange;
-     outline: 2px solid black;
-
      box-shadow: 0px 2px 1px -1px rgba(3, 1, 2, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -467,6 +498,10 @@ justify-content: center;}
 
 }
 
+
+.card-text {
+     padding: 20px 24px 20px 24px;
+}
 
 /* customer section */
 
