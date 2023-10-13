@@ -172,10 +172,6 @@ select {
      align-items: center;
 }
 
-.contact-items:hover {
-     fill: var(--main-blue-color);
-}
-
 .contact-icon {
      width: 16px;
      height: 12px;
@@ -187,6 +183,11 @@ select {
      display: block;
      padding-top: 28px;
      padding-bottom: 28px;
+}
+
+.contacts-link:hover {
+     color: var(--main-blue-color);
+     fill: var(--main-blue-color);
 }
 
 
